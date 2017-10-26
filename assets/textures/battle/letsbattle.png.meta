@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "6ddd4917-de12-4ef4-abe6-79d7462ec5a0",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "letsbattle": {
+      "ver": "1.0.3",
+      "uuid": "171d796e-e4a9-4e49-aac8-c7b1a9dcb14c",
+      "rawTextureUuid": "6ddd4917-de12-4ef4-abe6-79d7462ec5a0",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 738,
+      "height": 459,
+      "rawWidth": 738,
+      "rawHeight": 459,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

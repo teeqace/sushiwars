@@ -1,0 +1,143 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "EnemyAttack",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "Player": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0.3333333333333333,
+              "value": 255,
+              "curve": "constant"
+            },
+            {
+              "frame": 0.5,
+              "value": 0,
+              "curve": "constant"
+            },
+            {
+              "frame": 0.5833333333333334,
+              "value": 255,
+              "curve": "constant"
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": 0,
+              "curve": "constant"
+            },
+            {
+              "frame": 0.75,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "UI/Stats/PlayerDamage": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0,
+              "curve": "constant"
+            },
+            {
+              "frame": 0.5,
+              "value": 1,
+              "curve": "constant"
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0,
+              "curve": "constant"
+            },
+            {
+              "frame": 0.5,
+              "value": 1,
+              "curve": "constant"
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ],
+          "y": [
+            {
+              "frame": 0,
+              "value": 50
+            },
+            {
+              "frame": 0.5,
+              "value": 50
+            },
+            {
+              "frame": 1,
+              "value": 75
+            }
+          ]
+        }
+      },
+      "UI/Stats/EnemyDamage": {
+        "props": {}
+      },
+      "Enemy": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.3333333333333333,
+              "value": [
+                -80,
+                -40
+              ],
+              "motionPath": []
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                -5,
+                -40
+              ],
+              "motionPath": [
+                [
+                  -43.7,
+                  15.3,
+                  -26.1,
+                  15.3,
+                  -63.5,
+                  15.3
+                ]
+              ]
+            },
+            {
+              "frame": 1,
+              "value": [
+                -80,
+                -40
+              ],
+              "motionPath": []
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.5,
+      "func": "$damageToPlayer",
+      "params": []
+    }
+  ]
+}

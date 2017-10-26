@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "64a64a3d-66a4-4369-bbfa-b89c505bd4f3",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "food_syouyu_sara": {
+      "ver": "1.0.3",
+      "uuid": "bf0d94d2-54bd-4348-b837-df34f68587b1",
+      "rawTextureUuid": "64a64a3d-66a4-4369-bbfa-b89c505bd4f3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -1,
+      "trimX": 2,
+      "trimY": 14,
+      "width": 125,
+      "height": 77,
+      "rawWidth": 129,
+      "rawHeight": 103,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
